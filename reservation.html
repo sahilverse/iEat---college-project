@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reservation.css" />
+    <title>Itahari Eatery - Home</title>
+
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="main">
+        <!-- NavBar -->
+        <div class="navbar">
+            <div class="navContainer container">
+                <div id="logo">
+                    <a href="index.html">iEat.</a>
+                </div>
+                <nav>
+                    <ul class="navlist">
+                        <li class="navlist-items"><a href="index.html">Home</a></li>
+                        <li class="navlist-items"><a href="menu.html">Menu</a></li>
+                        <li class="navlist-items">
+                            <a href="specials.html">Specials</a>
+                        </li>
+                        <li class="navlist-items active">
+                            <a href="#">Reservation</a>
+                        </li>
+                        <li class="navlist-items"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div class="icons">
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Section -->
+    <section class="head">
+        <div class="container">
+            <div class="head-content">
+                <!-- <h1>Reservation</h1> -->
+                <h1>Looking for a best place to Enjoy Food?</h1>
+                <p>Reserve a Table at your Comfort</p>
+                <a href="#reservation">Start Booking &#8594;</a>
+
+            </div>
+
+    </section>
+
+
+
+
+    <!-- Reservation Section -->
+    <section id="reservation">
+        <div class="container">
+            <div class="reservation-form-container">
+                <div class="form-head">
+                    <p> Reservation Form</p>
+                </div>
+                <form action="">
+                    <div class="cols">
+                        <div class="col">
+                            <div class="input">
+                                <label for="fname">First Name</label>
+                                <input type="text" name="fname" id="fname" required>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="input">
+                                <label for="lname">Last Name</label>
+                                <input type="text" name="lname" id="lame" required>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="input">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="input">
+                                <label for="phone">Phone</label>
+                                <input type="phone" naDme="phone" id="phone">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="input">
+                                <label for="date">Date</label>
+                                <input type="date" name="date" id="date">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="input">
+                                <label for="seat">Select table:</label>
+                                <select name="seat" id="seat">
+                                    <option value="" selected disabled>Select Table</option>
+                                    <option value="A">Table A</option>
+                                    <option value="B">Table B</option>
+                                    <option value="C">Table C</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="input">
+                                <label for="message">Leave a Message: </label>
+                                <textarea name="message" id="message" rows="2"></textarea>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="submit">
+                        <button type="submit" class="submit-btn">Reserve</button>
+                    </div>
+                </form>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Itahari Eatery. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
